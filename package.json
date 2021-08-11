@@ -1,0 +1,25 @@
+{
+  "name": "typescript-challenges",
+  "version": "1.0.0",
+  "description": "codewars challenges in typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "lint": "eslint ."
+  },
+  "author": "@AnibalDBXD",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-typescript": "^7.15.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "eslint-plugin-jest": "^24.4.0",
+    "@types/jest": "^27.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint": "^7.32.0"
+  }
+}
