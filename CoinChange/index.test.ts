@@ -9,7 +9,11 @@ describe("Coin change", () => {
     expect(coinChange([1,2], 6))
       .toBe(3)
   })
-  it("Multiple elements", () => {
+  it("One element", () => {
+    expect(coinChange([1], 8))
+      .toBe(8)
+  })
+  it("One element, should be -1", () => {
     expect(coinChange([10], 8))
       .toBe(-1)
   })
