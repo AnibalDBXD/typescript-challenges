@@ -1,4 +1,5 @@
 import coinChange from "."
+import { describe, it, expect } from 'vitest'
 
 describe("Coin change", () => {
   it("Multiple elements", () => {

@@ -1,4 +1,5 @@
 import generateHashtag from "."
+import { describe, it, expect } from 'vitest'
 
 describe('The HashTag Generator', () => {
   it('Expected an empty string to return false', () => {

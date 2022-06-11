@@ -1,4 +1,5 @@
 import getOrder from "."
+import { describe, it, expect } from 'vitest'
 
 describe("New Cashier Does Not Know About Space or Shift", function() {
   it("Should work", () => {

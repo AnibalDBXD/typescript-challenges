@@ -1,4 +1,5 @@
 import isNarcissistic from "."
+import { describe, it, expect } from 'vitest'
 
 describe("Narcissistic Numbers", function() {
   it("Test", () => {
