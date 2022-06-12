@@ -3,7 +3,7 @@ import { describe, it, expect } from 'vitest'
 
 describe("Coin change", () => {
   it("Multiple elements", () => {
-    expect(coinChange([1,2,5], 13))
+    expect(coinChange([1,2,5], 11))
       .toBe(3)
   })
   it("Multiple elements", () => {
